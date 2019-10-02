@@ -14,7 +14,7 @@
         <div class="col-12 mb-3">
           <a href="{{ route('start')}}" class="">Back</a>
         </div>
-        <div class="col-12">
+        <div class="col-12 mb-5">
           <form action="{{ route('storeCompany')}}" method="post" >
             @csrf
             @method('POST')
@@ -38,7 +38,7 @@
                 <input type="text" class="form-control" name="website"  placeholder="Website">
               </div>
             </div>
-            <button type="submit" class="btn btn-primary mt-2">Add Company</button>
+            <button type="submit" class="btn btn-dark mt-2">Add Company</button>
           </form>
         </div>
 
